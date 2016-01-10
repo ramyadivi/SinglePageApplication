@@ -1,0 +1,85 @@
+.circular-image img {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+   
+}
+
+.circular-image p {
+    text-align: center;
+}
+
+.flp {
+    height: 50%;
+    width: 50%;
+    text-align: right;
+    margin-left: 25%;
+    margin-top: 0;
+    top:0;
+
+}
+
+.flp p::first-line {
+    font-weight: bold;
+    color: red;
+}
+
+.flp p::first-letter {
+    color: blue;
+    font-size: 30px;
+}
+
+#cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#loginScreen {
+    height: 280px;
+    width: 340px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    display: none;
+    border: 5px solid #cccccc;
+    border-radius: 10px;
+
+}
+
+#loginScreen:target,
+#loginScreen:target + #cover {
+    display: block;
+
+    opacity: 2;
+}
+
+.cancel {
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    background: rgb(245, 245, 245);
+    color: black;
+    height: 30px;
+    width: 35px;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img {
+    height: 280px;
+    width: 340px;
+    border-radius: 200px;
+}
+
+.image1 {
+    color: white;
+}

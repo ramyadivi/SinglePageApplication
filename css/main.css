@@ -1,0 +1,119 @@
+@import url("../Modules/menu/css/menu.css");
+@import url("../Modules/image-circle/css/image.css");
+@import url("../Modules/HumanFace/css/human.css");
+@import url("../Modules/first-line/css/CParagraph.css");
+@import url("../Modules/first-last-paragraph/css/CFirstLast.css");
+@import url("../Modules/empty/css/NonEmpty.css");
+@import url("../Modules/hover/css/hover.css");
+@import url("../Modules/triangle/css/triangle.css");
+@import url("../Modules/List/css/orderlist.css");
+@import url("../Modules/3-boxes/css/3Blocks.css");
+@import url("../Modules/blur-text/css/BlurText.css");
+@import url("../Modules/border-image/css/BorderImage.css");
+@import url("../Modules/image-circle/css/image.css");
+@import url("../Modules/ribbon/css/ribbon.css");
+@import url("../Modules/text-format/css/text1.css");
+@import url("../Modules/button/css/button.css");
+@import url("../Modules/About-us/css/about-us.css");
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /* background: #292522 url(../images/bg.png) repeat center center;color: #3F3F3F;font: 16px/22px Arial, Helvetica, sans-serif;*/
+    background: #ffcccc url(../Images/21.jpg)repeat center center;
+}
+
+.title {
+    overflow: hidden;
+    background-size: 100%;
+    padding: 10px;
+    background: #333333;
+    margin: 0px;
+}
+
+#mobilemenu {
+    width: 150px;
+    height: 60px;
+    font: bold;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    border: 3px solid black;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+
+/*.title {
+    overflow: hidden;
+    background-size: 100%;
+    padding: 10px;
+    background: #333333;
+    margin: 0px;
+    height:60px;
+    width:100%;
+   
+    display: inline-block;
+}
+.title .titleimage
+{
+  display: inline-block;
+  position: fixed;
+  background: url(Images/logo2.jpg);
+  height:100px;
+  width:100px;}
+*/
+
+.footer {
+    color: white;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background: #333333;
+    background-size: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.page {
+    margin-top: 1px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    padding: 100px 150px;
+}
+#mobilemenu {
+        display: none;
+    }
+@media screen and (min-width: 400px) and (max-width: 600px) {
+   
+    #mobilemenu {
+        display: block;
+    }
+    #menu {
+        display: none;
+    }
+    nav a {
+            font-size: 20px;
+            padding: 5px;
+            /*height of menu bar*/
+        }
+        nav ul li {
+            padding: 10px;
+            margin-left: 25px;
+        }
+        nav ul li:hover {
+            padding: 10px;
+        }
+        nav ul li ul {
+            width: 200px;
+            margin-top: 10px;
+        }
+        nav ul li ul li {
+            margin-left: -10px;
+            padding: 5px 0px;
+        }
+   
+}

@@ -1,0 +1,20 @@
+.flp
+{
+	height: 50%;
+	width: 50%;
+	text-align: justify;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+.flp p::first-line
+ {
+
+  font-weight: bold;
+  color: red;
+}
+.flp p::first-letter
+{
+	color:blue;
+	font-size:30px;
+}

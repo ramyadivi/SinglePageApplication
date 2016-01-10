@@ -1,0 +1,155 @@
+.face {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 160px;
+    background: #F0E68C;
+    margin-top:5%;
+}
+
+.left-eye {
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    float: left;
+    animation: anticlock-wise 3s infinite;
+    border-radius: 25px;
+}
+
+.right-eye {
+    margin-right: 70px;
+    margin-top: 70px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid red;
+    float: right;
+    animation: clock-wise 3s infinite;
+    border-radius: 25px;
+}
+
+.left-nose {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 222px;
+    border: 2px solid;
+    border-radius: 10px;
+    animation: nose 3s infinite;
+}
+
+.right-nose {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-top: 70px;
+    margin-right: 222px;
+    border: 2px solid;
+    border-radius: 10px;
+    animation: nose 3s infinite;
+}
+
+.left-circle {
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    background: black;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.right-circle {
+    width: 35px;
+    border-radius: 50px;
+    height: 35px;
+    background: black;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+@keyframes anticlock-wise {
+    0% {
+        transform: rotate(360deg)
+    }
+    25% {
+        transform: rotate(270deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(90deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes clock-wise {
+    0% {
+        transform: rotate(0deg)
+    }
+    25% {
+        transform: rotate(90deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(270deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes nose {
+    0% {
+        transform: scale(1, 1)
+    }
+    25% {
+        transform: scale(0.5, 0.5)
+    }
+    50% {
+        transform: scale(1, 1)
+    }
+    75% {
+        transform: scale(0.5, 0.5)
+    }
+    100% {
+        transform: scale(1, 1)
+    }
+}
+
+div.appear {
+    width: 120px;
+    height: 30px;
+    border: #000 2px solid;
+    background: none;
+    top: 650px;
+    left: 400px;
+    display: none;
+    padding: 0 5px 5px 5px;
+    z-index: 1000000;
+    position: absolute;
+}
+
+div.hover {
+    cursor: pointer;
+    width: 1px;
+}
+
+div.hover:hover div.appear {
+    display: block;
+}
+
+div.hover:hover div.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 10px solid black;
+}

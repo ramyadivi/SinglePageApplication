@@ -1,0 +1,80 @@
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a onclick="fnShowAboutUs()">About Us</a></li>
+        <li>
+            <a href="#">Pseudo Classes</a>
+            <ul>
+                <li><a onclick="fnShow()">Human Face</a></li>
+                <li><a onclick="fnShowfirstlineparagraph()">First-Line Paragraph</a></li>
+                <li><a onclick="fnShowFirstLastParagraph()">First-Last Paragraphs</a></li>
+                <li><a onclick="fnShowEmpty()">Empty</a></li>
+                <li><a onclick="fnShowHover()">Hover</a></li>
+                <li><a onclick="fnShowTriangle()">Triangle</a></li>
+                <li><a onclick="fnShowList()">List</a></li>
+            </ul>
+        </li>
+        <li><a href="#">CSS Styles</a>
+            <ul>
+                <li><a onclick="fnShow3Boxes()">3Boxes</a></li>
+                <li><a onclick="fnShowBlurText()">Blur Text</a></li>
+                <li><a onclick="fnShowBorderImage()">Border Image</a></li>
+                <li><a onclick="fnShowCircularImage()">Circle Image</a></li>
+                <li><a onclick="fnShowRibbon()">Ribbon</a></li>
+                <li><a onclick="fnShowTextFormat()">Text Format</a></li>
+                <li><a onclick="fnShowButton()">Button</a></li>
+            </ul>
+        </li>
+        <li><a href="#contact-us">Contact Us</a></li>
+        <div id="contact-us"> <a href="#" class="cancel">&times;</a>
+            <form onsubmit="fnsuccess()">
+                <center>
+                    <h3>REGISTRTION</h3>
+                    <p>Frist Name::
+                        <input type="text" name="frist_name" placeholder="Frist Name" required autocomplete="on" autofocus>
+                    </p>
+                    <p>Middle Name::
+                        <input type="text" name="middle_name" placeholder="Middle Name" required autocomplete="on" pattern="[A-Za-z]{5}" title="Five Letter Name only">
+                    </p>
+                    <p>Last Name::
+                        <input type="text" name="last_name" placeholder="Last Name" autocomplete="on">
+                    </p>
+                    <p>E-mail ::
+                        <input type="text" name="e-mail" placeholder="username@gmail.com" autocomplete="off" autocomplete="on">
+                    </p>
+                    <p>Password ::
+                        <input type="password" name="password">
+                    </p>
+                    <p>Gender ::
+                        <input type="radio" name="sex" value="male" checked>Male
+                        <input type="radio" name="sex" value="female">Female</p>
+                    <p>Date Of Birth ::
+                        <input type="date" name="bday">
+                    </p>
+                    <p>Mobile Number ::
+                        <input type="tel" name="mob" placeholder="MobileNumber" autocomplete="on" pattern="[0-9]{10}" title="enter 10 digit Phone Number">
+                    </p>
+                    <p>Adress ::
+                        <input type="checkbox" name="ad1" value="Permanent ad" checked>Permanent Adress
+                        <input type="checkbox" name="ad2" value="Tempo ad">Temporary Adress
+                        <p/>
+                        <br>
+                        <textarea rows="4" cols="45" name="comment" form="usrform" autocomplete="on">Enter Adress here...</textarea>
+                        <p>State ::
+                            <input list="state" placeholder="select">
+                            <datalist id="state">
+                                <option value="AP">
+                                    <option value="MP">
+                                        <option value="Kerala">
+                                            <option value="Delhi">
+                            </datalist>
+                        </p>
+                        <p>
+                            <input type="submit" value="Submit">
+                        </p>
+                </center>
+            </form>
+        </div>
+        <div id="cover"> </div>
+    </ul>
+</nav>

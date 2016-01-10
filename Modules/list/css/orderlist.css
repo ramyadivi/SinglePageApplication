@@ -1,0 +1,17 @@
+.list
+{
+	margin-left: 450px;
+}
+
+.list ol{ 
+counter-reset: ol; margin-left: 10px;
+
+}
+.list li{ 
+	
+display: block ;
+}
+.list li:before { 
+
+content: counters(ol, ".") " "; counter-increment: ol;
+}

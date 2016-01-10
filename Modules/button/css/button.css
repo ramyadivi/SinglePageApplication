@@ -1,0 +1,40 @@
+/*.stitched {
+	width:100px;
+   padding: 20px;
+   margin: 10px;
+   background: #007e80;
+   color: #fff;
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 8px black, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px black;
+   font-weight: normal;
+}
+body {
+  padding: 10px;
+}
+
+*/
+
+.button {
+ margin: 2px;
+ height: 55px;
+ width: 220px;
+ background-color: #007e80;
+ padding: 4px;
+ cursor: pointer;
+ border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+
+}
+
+.buttonborder {
+ height: 45px;
+ width: 210px;
+ border-radius: 5px;
+ border: dashed white 2px;
+ margin: auto;
+}

@@ -1,0 +1,23 @@
+.a,
+.b,.c {
+  margin-left: 100px;
+   
+    float: left;
+    width: 200px;
+    height: 200px;
+    box-sizing:border-box;
+
+}
+
+.a {
+    background-color: red;
+}
+
+.b {
+    border: 8px solid blue;
+}
+
+.c {
+    padding: 80px;
+    background-color: yellow;
+}

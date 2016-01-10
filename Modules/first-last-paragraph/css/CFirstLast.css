@@ -1,0 +1,17 @@
+#fl {
+  font-family: Palatino, Georgia, serif;
+  max-width: 32em;
+  padding: 1em 0 0 1em;
+  line-height: 1.4;
+  height: 50%;
+	width: 50%;
+	text-align: justify;
+	margin-left: 25%;
+	margin-top:1%;
+}
+#fl p:first-child {
+color: red;
+}
+#fl p:last-child {
+color: red;
+}
