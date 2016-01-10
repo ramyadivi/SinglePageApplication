@@ -33,6 +33,7 @@ body {
 }
 
 #mobilemenu {
+    cursor: pointer;
     width: 150px;
     height: 60px;
     font: bold;
@@ -85,16 +86,28 @@ body {
     padding: 100px 150px;
 }
 #mobilemenu {
-        display: none;
-    }
-@media screen and (min-width: 400px) and (max-width: 600px) {
-   
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
     #mobilemenu {
         display: block;
     }
     #menu {
         display: none;
     }
+
+    #menu nav ul li{
+        display: block;
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+   
+    
     nav a {
             font-size: 20px;
             padding: 5px;

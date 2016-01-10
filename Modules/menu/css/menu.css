@@ -65,10 +65,10 @@ nav ul
 {
     display: block;
 }
- nav 
+ /*nav 
  {
     display:none;
- }
+ }*/
 }
 
 /*  @media screen and (max-width: 600px) and (min-width: 400px) {

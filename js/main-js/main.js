@@ -67,3 +67,9 @@ function fnsuccess(){
   alert("Registration successfull");
 }
 
+$(function(){
+  $('#mobilemenu').click(function(){
+    $('#menu').toggle();
+  });
+});
+
